@@ -1,5 +1,9 @@
-.h1 {
-    text-transform: capitalize;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: #e84610;
 }
 
 
