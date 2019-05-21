@@ -6,28 +6,34 @@ body {
 
 /*--------------------------------------------Navbar*/
 
-.navbar {
-    background-color: #e84610;
+.nav {
+    background-color: #e84610 !important;
 }
 
 /*--------------------------------------------Services*/
 
 .service {
-    text-align: center;
+    text-align: center !important;
     margin-bottom: 40px;
 }
 
 .service i {
-    margin-bottom: 20px;
+    margin-bottom: 60px !important;
     font-size: 45px;
     line-height: 45px;
+}
+
+/*--------------------------------------------Social*/
+
+.social {
+    margin: 10px;
 }
 
 /*--------------------------------------------Footer*/
 
 .footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #525252 !important;
+    color: #fafafa !important;
     min-height: 120px;
     margin: 0;
 }
@@ -55,3 +61,4 @@ body {
 .social-links li a i:hover {
     background: #e84610;
 }
+
