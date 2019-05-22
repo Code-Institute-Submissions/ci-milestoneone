@@ -6,23 +6,49 @@ body {
 
 /*--------------------------------------------Navbar*/
 
-.nav {
-    background-color: #e84610 !important;
+.bg-light {
+    background-color: #3c80c3!important;
+}
+
+/*--------------------------------------------Heading Paragraph*/
+
+.lowercase {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------------------Audio*/
+
+.row {
+    
 }
 
 /*--------------------------------------------Services*/
 
 .service {
-    text-align: center !important;
+    text-align: center;
     margin-bottom: 40px;
 }
 
 .service i {
-    margin-bottom: 60px !important;
+    margin-bottom: 60px!important;
     font-size: 45px;
     line-height: 45px;
 }
 
+.text-uppercase {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 /*--------------------------------------------Social*/
 
 .social {
@@ -31,11 +57,13 @@ body {
 
 /*--------------------------------------------Footer*/
 
-.footer {
-    background-color: #525252 !important;
-    color: #fafafa !important;
+.social {
+    color: #212529;
+    padding: 10px;
+    margin: 10px;
     min-height: 120px;
     margin: 0;
+    text-align: center;
 }
 
 .social-links {
@@ -62,3 +90,6 @@ body {
     background: #e84610;
 }
 
+.list-inline social-links {
+    text-align: center;
+}
