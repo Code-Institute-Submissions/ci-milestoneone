@@ -93,3 +93,9 @@ body {
 .list-inline social-links {
     text-align: center;
 }
+
+/*--------------------------------------------Form*/
+
+.form-group {
+    margin-bottom: 50px;
+}
