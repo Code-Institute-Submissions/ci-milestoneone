@@ -32,13 +32,43 @@ by the pictures and descriptions of the band, also the audio and video clips.
 
 [Home Page](https://ci-milestoneone-mattjboland.c9users.io/index.html)
 
-*Carousel - I used this to display some images on each page of the website
+* NavBar - I used this feature for ease of navigating the website and to the different pages 
+* Carousel - I used this to display some images on each page of the website to keep the users attention
+* Audio Clips - I have some audio clips for the user to experience some of their hits
+* Social Links - I have access links to Facebook, Twitter and YouTube
 
-I would like the home page to give readers an insight into the band along with some history about members and songs.
-In the home page I would like to advertise the bands availability to do some private functions like weddings, christmas parties etc.
+[Band Page](https://ci-milestoneone-mattjboland.c9users.io/band.html)
 
-I would like to have information relating to the band, audio clips and video clips. This will act as a preview of the band informing 
-the user of their current songs and tracks. I would also like to achieve a section where the user is able to enquire about the band and 
-check availability for weddings and functions etc.
+* NavBar - I used this feature for ease of navigating the website and to the different pages 
+* Carousel - I used this to display some images on each page of the website to keep the users attention
+* Video Clip - I have a video clip for the user to enjoy
+* Social Links - I have access links to Facebook, Twitter and YouTube
+
+[Testimonials Page](https://ci-milestoneone-mattjboland.c9users.io/testimonials.html)
+
+* NavBar - I used this feature for ease of navigating the website and to the different pages 
+* Carousel - I used this to display some images on each page of the website to keep the users attention
+* Social Links - I have access links to Facebook, Twitter and YouTube
+
+[Enquiry Page](https://ci-milestoneone-mattjboland.c9users.io/enquire.html)
+
+* NavBar - I used this feature for ease of navigating the website and to the different pages 
+* Carousel - I used this to display some images on each page of the website to keep the users attention
+* Form - I used this so the user can enquire about services etc
+* Social Links - I have access links to Facebook, Twitter and YouTube
+
+## Technologies Used
+
+* HTML - This is used as the layout to build the website
+* CSS - This is used to style the website
+* [Bootstrap](https://getbootstrap.com/) - This is used to get the layout up and running and also use grids for the responsive design
+* [Font Awesome](https://fontawesome.com/) - This is used for some icons in the website
+* [JQuery](https://jquery.com/) - This is used in the carousel and in the enquiry form
+
+## Testing
+
+
+
+
 
 
