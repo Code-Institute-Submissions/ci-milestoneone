@@ -25,7 +25,7 @@ body {
 
 /*--------------------------------------------Audio*/
 
-.row {
+.col-sm {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -51,7 +51,8 @@ body {
 /*--------------------------------------------Social*/
 
 .social {
-    margin: 10px;
+    margin-top: : 20px;
+    margin-bottom: 20px;
 }
 
 /*--------------------------------------------Footer*/

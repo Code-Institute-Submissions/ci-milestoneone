@@ -67,7 +67,8 @@ by the pictures and descriptions of the band, also the audio and video clips.
 
 ## Testing
 
-
+I have thoroughly tested the website and was unable to find any bad links. I have also submitted an incorrect email into the form
+and it gave me an error message to show that the required attribute within my form is working as it should.
 
 
 
