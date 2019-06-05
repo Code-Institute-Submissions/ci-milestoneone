@@ -17,20 +17,20 @@ by the pictures and descriptions of the band, also the audio and video clips.
 
 **I used the following features on the website for the user to achieve these goals**
 
-* Bullet list A brief description of the Band
-* Bullet list item 2 Audio clips for the user to experience
-* Bullet list item 3 Serices, what the band can be booked for
-* Bullet list item 4 Video clip for the user to experience
-* Bullet list item 5 A brief description on each band members
-* Bullet list item 6 Testimonials, what others have said
-* Bullet list item 7 Enquiry page where users can enter and email and be contacted
-* Bullet list item 8 Social links to Facebook, Twitter and YouTube
+* A brief description of the Band
+* Audio clips for the user to experience
+* Serices, what the band can be booked for
+* Video clip for the user to experience
+* A brief description on each band members
+* Testimonials, what others have said
+* Enquiry page where users can enter and email and be contacted
+* Social links to Facebook, Twitter and YouTube
 
 ## Wireframe Mockups
 
 ## Features
 
-![Home Page](https://ci-milestoneone-mattjboland.c9users.io/index.html)
+[Home Page](https://ci-milestoneone-mattjboland.c9users.io/index.html)
 
 *Carousel - I used this to display some images on each page of the website
 
