@@ -28,10 +28,10 @@ by the pictures and descriptions of the band, also the audio and video clips.
 
 ## Wireframe Mockups
 
-[Home Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0486.jpg)
-[Band Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0487.jpg)
-[Testimonial Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0488.jpg)
-[Enquiry Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0489.jpg)
+* [Home Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0486.jpg)
+* [Band Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0487.jpg)
+* [Testimonial Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0488.jpg)
+* [Enquiry Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0489.jpg)
 
 ## Features
 
