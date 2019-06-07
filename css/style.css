@@ -30,6 +30,13 @@ body {
     margin-bottom: 20px;
 }
 
+/*--------------------------------------------Band*/
+
+.band-details {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /*--------------------------------------------Services*/
 
 .service {
@@ -60,7 +67,7 @@ body {
 .social {
     color: #212529;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     min-height: 120px;
     margin: 0;
     text-align: center;
@@ -97,5 +104,6 @@ body {
 /*--------------------------------------------Form*/
 
 .form-group {
+    margin-top: 20px;
     margin-bottom: 50px;
 }
