@@ -6,8 +6,6 @@ body {
 
 /*--------------------------------------------Navbar*/
 
-
-
 /*--------------------------------------------Heading Paragraph*/
 
 .lowercase {
@@ -29,6 +27,10 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*--------------------------------------------Video*/
+
+
 
 /*--------------------------------------------Band*/
 
@@ -55,6 +57,7 @@ body {
     margin-top: 40px;
     margin-bottom: 50px;
 }
+
 /*--------------------------------------------Social*/
 
 .social {
@@ -90,7 +93,7 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-    
+
 .social-links li a i:hover {
     background: #e84610;
 }
