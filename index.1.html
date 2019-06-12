@@ -15,12 +15,11 @@
 </head>
 
 <body>
-
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">The Monkees</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -49,13 +48,13 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
   <div class="container-fluid">
@@ -68,36 +67,54 @@
   <p class="paragraph">Please sample these audio clips of some of our favourite hits.</p>
 
   <div class="container-fluid">
-    <div class="row" style="text-align: center;">
-      <div class="col-sm">
-        <img src="./images/album.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/Clarksville.mp3" type="audio/mpeg">
-      </audio>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./images/album.jpg" height="300" width="300" class="img-icon">
+          <div class="card-body">
+            <audio controls>
+              <source src="audio/Clarksville.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
       </div>
-      <div class="col-sm">
-        <img src="./images/album2.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
-      </audio>
+      
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./images/album2.jpg" height="300" width="300" class="img-icon">
+          <div class="card-body">
+            <audio controls>
+              <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./images/cover.jpg" height="300" width="300" class="img-icon">
+          <div class="card-body">
+            <audio controls>
+              <source src="audio/ImABeliever.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
       </div>
-      <div class="col-sm">
-        <img src="./images/cover.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/ImABeliever.mp3" type="audio/mpeg">
-      </audio>
+      
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="./images/album2.jpg" height="300" width="300" class="img-icon">
+          <div class="card-body">
+            <audio controls>
+              <source src="audio/SteppingStone.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
       </div>
-      <div class="col-sm">
-        <img src="./images/album2.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/SteppingStone.mp3" type="audio/mpeg">
-      </audio>
-      </div>
-    </div>
-  </div>
 
-  <!--<div class="container-wrapper container-wrapper">
-    <div class="container service-container content-container">-->
+    </div>
+    
+    <div class="row">
       <section class="service">
         <div class="row">
           <div class="col-12 page-header">
@@ -125,39 +142,41 @@
           </div>
         </div>
       </section>
+    </div>
+  </div>
 
-      <footer class="container-fluid">
+  <!--<div class="container-wrapper container-wrapper">-->
+  <!--  <div class="container service-container content-container">-->
+  <footer class="container-fluid">
         <div id="footer-details" class="row text-center">
           <div class="col-12">
             <h5 class="uppercase general-sub">Social</h5>
             <ul class="list-inline social-links">
               <li class="list-inline-item">
                 <a target="_blank" href="https://www.facebook.com/TheMonkees/">
-                                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                                  <span class="sr-only">Facebook</span>
-                              </a>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
               </li>
               <li class="list-inline-item">
                 <a target="_blank" href="https://twitter.com/themonkees">
-                                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                                  <span class="sr-only">Twitter</span>
-                              </a>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
               </li>
               <li class="list-inline-item">
                 <a target="_blank" href="https://www.youtube.com/user/themonkees">
-                                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                                  <span class="sr-only">YouTube</span>
-                              </a>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
             </ul>
           </div>
         </div>
       </footer>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

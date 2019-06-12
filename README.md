@@ -23,7 +23,7 @@ by the pictures and descriptions of the band, also the audio and video clips.
 * Video clip for the user to experience
 * A brief description on each band members
 * Testimonials, what others have said
-* Enquiry page where users can enter and email and be contacted
+* Enquiry form where users can enter and email and be contacted
 * Social links to Facebook, Twitter and YouTube
 
 ## Wireframe Mockups
@@ -72,19 +72,44 @@ by the pictures and descriptions of the band, also the audio and video clips.
 
 ## Testing
 
-I have thoroughly tested the website and was unable to find any bad links. I have also submitted an incorrect email into the form
-and it gave me an error message to show that the required attribute within my form is working as it should.
+I have thoroughly tested the website and was unable to find any bad links. Everything is working as is supposed to. I have also submitted 
+an incorrect email into the form and it gave me an error message to show that the required attribute within my form is working as it should.
 
 
 ## Issues and Bugs
 
+I came across several issues with code, whether it was code taken from Bootstrap or my own code. the first was a problem with the Bootstrap
+Carousel. The carousel wasnt working correctly, so I sent a message to Tutor support and it was realised that I linked the Bootstrap CDN 
+before the FontAwesome link and this caused the issue. When the links were swapped the problem was resolved. There were many simple issues
+some that were easily solved by visiting the [W3schools](https://www.w3schools.com/) page.
+
+The other big problem I came across was when I was using a video file and linking it to the website. When I inspected the file it wasnt responsive.
+It was working well on large viewports but when viewed on a mobile, it pushed the NavBar out and the centering was all wrong. I tried many ways
+to resolve this problem and couldn't figure it out. So I put it out to [Slack](https://slack.com/intl/en-ie/) Community and was able to resolve 
+the problem very quickly and effectively.
+
 ## Validation
+
+I have checked the code on [https://validator.w3.org/nu/#textarea] and no major errors were reported.
 
 ## Deployment
 
+I deployed my website via GitHub pages and is currently published at [https://mattjboland.github.io/ci-milestoneone/]
+
 ## Credits
+
+**Content**
+
+
+
+**Media Content**
 
 ## Acknowledgements
 
+Code Institute
+Bootstrap
+W3schools
+Slack
+SlackOverflow
 
 

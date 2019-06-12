@@ -58,6 +58,17 @@ body {
     margin-bottom: 50px;
 }
 
+.img-icon {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;   
+}
+
+.card {
+    width: 340px;
+    height: 440px;
+}
+
 /*--------------------------------------------Social*/
 
 .social {
