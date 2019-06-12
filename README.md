@@ -76,5 +76,15 @@ I have thoroughly tested the website and was unable to find any bad links. I hav
 and it gave me an error message to show that the required attribute within my form is working as it should.
 
 
+## Issues and Bugs
+
+## Validation
+
+## Deployment
+
+## Credits
+
+## Acknowledgements
+
 
 
