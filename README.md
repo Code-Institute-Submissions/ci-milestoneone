@@ -100,16 +100,19 @@ I deployed my website via GitHub pages and is currently published at [https://ma
 
 **Content**
 
-
+All text used for development of this website was extracted from the Wikipedia article [The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
 
 **Media Content**
 
+All media content was supplied by [Code Institute](https://github.com/Code-Institute-Org/project-assets)
+
 ## Acknowledgements
 
-Code Institute
-Bootstrap
-W3schools
-Slack
-SlackOverflow
+* [Code Institute](https://codeinstitute.net/)
+* [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar, Carousel and Form examples in my website
+* [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code
+* [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors
+* [StackOverflow](https://stackoverflow.com/) This website was used as a reference for help and tips
+* Guido Cecilio, Guido is my mentor and his help and patience on this project was incredible. I learned so much from our meetings
 
 
