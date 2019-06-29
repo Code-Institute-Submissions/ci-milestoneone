@@ -4,7 +4,7 @@
 
 This website is going to be used as advertisment and promotion of a band call The Monkees. It gives the user a basic history of the 
 band and provide audio clips and a video clip for them to enjoy. It informs the user of the services they provide and will have 
-testimonials from previous customers. It has an enquiry page where the user will input their email with a view to getting some
+testimonials from previous customers. It has an enquiry form where the user will input their email with a view to getting some
 feedback on the services they provide or even book. I have built and structured a website thats easily navigated by the user and easy 
 on the eyes retaining the attention of the user while being informative and explaining the purpose and goals of the band.
 
@@ -33,6 +33,10 @@ by the pictures and descriptions of the band, also the audio and video clips.
 * [Testimonial Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0488.jpg)
 * [Enquiry Page MU](https://github.com/mattjboland/ci-milestoneone/blob/master/wirefame-mockup/IMG_0489.jpg)
 
+This was the original idea with various pages linked, when the website was created and reviewed by Guido and myself
+we both agreed that the carousel on each of the pages was too much too look at. It wasnt easy on the eyes. We agreed
+that the best solution was to create a single page website and include all these element on one home page.
+
 ## Features
 
 [Home Page](https://ci-milestoneone-mattjboland.c9users.io/index.html)
@@ -40,23 +44,7 @@ by the pictures and descriptions of the band, also the audio and video clips.
 * NavBar - I used this feature for ease of navigating the website and to the different pages 
 * Carousel - I used this to display some images on each page of the website to keep the users attention
 * Audio Clips - I have some audio clips for the user to experience some of their hits
-* Social Links - I have access links to Facebook, Twitter and YouTube
-
-[Band Page](https://ci-milestoneone-mattjboland.c9users.io/band.html)
-
-* NavBar - I used this feature for ease of navigating the website and to the different pages 
-* Carousel - I used this to display some images on each page of the website to keep the users attention
 * Video Clip - I have a video clip for the user to enjoy
-* Social Links - I have access links to Facebook, Twitter and YouTube
-
-[Testimonials Page](https://ci-milestoneone-mattjboland.c9users.io/testimonials.html)
-
-* NavBar - I used this feature for ease of navigating the website and to the different pages 
-* Carousel - I used this to display some images on each page of the website to keep the users attention
-* Social Links - I have access links to Facebook, Twitter and YouTube
-
-[Enquiry Page](https://ci-milestoneone-mattjboland.c9users.io/enquire.html)
-
 * NavBar - I used this feature for ease of navigating the website and to the different pages 
 * Carousel - I used this to display some images on each page of the website to keep the users attention
 * Form - I used this so the user can enquire about services etc
