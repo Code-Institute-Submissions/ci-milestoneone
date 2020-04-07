@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,19 +14,18 @@
   <title>The Monkees</title>
 </head>
 
-<body>
-
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<body data-spy="scroll" data-target="#navbar" data-offset="80"> 
+  <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">The Monkees</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="band.html">Band</a>
-        <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
-        <a class="nav-item nav-link" href="enquire.html">Enquire</a>
+        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#band">Band</a>
+        <a class="nav-item nav-link" href="#testimonials">Testimonials</a>
+        <a class="nav-item nav-link" href="#enquire">Enquire</a>
       </div>
     </div>
   </nav>
@@ -49,56 +48,74 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
   <div class="container-fluid">
-    <h1 class="lowercase">The Monkees</h1>
-    <p class="paragraph">We formed in Los Angeles in 1965 specifically for the American television series 'The Monkees', which aired from 1966-1968. The quartet is made up of Americans Micky Dolenz, Michael Nesmith and Peter Tork with Englishman Davy Jones. The telesvision
-      show was cancelled in 1968 but we continued to record music until 1971. We have sold more than 75 million records worldwide.</p>
-  </div>
-  
-  <h1 class="text-uppercase text-center">Audio Clips</h1>
-  <p class="paragraph">Please sample these audio clips of some of our favourite hits.</p>
-
-  <div class="container-fluid">
-    <div class="row" style="text-align: center;">
-      <div class="col-sm">
-        <img src="./images/album.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/Clarksville.mp3" type="audio/mpeg">
-      </audio>
-      </div>
-      <div class="col-sm">
-        <img src="./images/album2.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
-      </audio>
-      </div>
-      <div class="col-sm">
-        <img src="./images/cover.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/ImABeliever.mp3" type="audio/mpeg">
-      </audio>
-      </div>
-      <div class="col-sm">
-        <img src="./images/album2.jpg" height=300 width=300 alt="...">
-        <audio controls>
-        <source src="audio/SteppingStone.mp3" type="audio/mpeg">
-      </audio>
+    
+    <div class="row featurette">
+      <div class="col-md-12">
+        <h1 id="home" class="lowercase">The Monkees</h1>
+        <p class="paragraph">We formed in Los Angeles in 1965 specifically for the American television series 'The Monkees', which aired from 1966-1968. The quartet is made up of Americans Micky Dolenz, Michael Nesmith and Peter Tork with Englishman Davy Jones. The telesvision
+          show was cancelled in 1968 but we continued to record music until 1971. We have sold more than 75 million records worldwide.</p>
       </div>
     </div>
-  </div>-->
-
-  <!--<div class="container-wrapper container-wrapper">
-    <div class="container service-container content-container">-->
-      <!--<section class="service">
+  
+    <hr class="featurette-divider">
+  
+    <div class="row align-items-center featurette">
+      <div class="mb-12">
+        <h1 class="text-uppercase text-center">Audio Clips</h1>
+        <p class="paragraph">Please sample these audio clips of some of our favourite hits.</p>
+      </div>
+    </div>
+  
+    <div class="row align-items-center">
+        <div class="card shadow-sm">
+            <img src="./images/album.jpg" height="300" width="300" class="img-icon">
+            <div class="card-body">
+                <audio controls>
+                <source src="audio/Clarksville.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        
+        <div class="card shadow-sm">
+            <img src="./images/album2.jpg" height="300" width="300" class="img-icon">
+            <div class="card-body">
+                <audio controls>
+                <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        
+        <div class="card shadow-sm">
+            <img src="./images/cover.jpg" height="300" width="300" class="img-icon">
+            <div class="card-body">
+                <audio controls>
+                <source src="audio/ImABeliever.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        
+        <div class="card shadow-sm">
+            <img src="./images/album2.jpg" height="300" width="300" class="img-icon">
+            <div class="card-body">
+                <audio controls>
+                <source src="audio/SteppingStone.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+      <section class="service">
         <div class="row">
           <div class="col-12 page-header">
             <h2 class="text-uppercase">Services:</h2>
@@ -125,39 +142,149 @@
           </div>
         </div>
       </section>
+    </div>
+  </div>
+  
+   <h1 class="text-uppercase text-center">Daydream Believer</h1>
+  <p class="paragraph">Here is a sample video of one of our hits Daydream Believer for you to enjoy!!</p>
 
-      <footer class="container-fluid">
-        <div id="footer-details" class="row text-center">
-          <div class="col-12">
-            <h5 class="uppercase general-sub">Social</h5>
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/TheMonkees/">
-                                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                                  <span class="sr-only">Facebook</span>
-                              </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://twitter.com/themonkees">
-                                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                                  <span class="sr-only">Twitter</span>
-                              </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.youtube.com/user/themonkees">
-                                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                                  <span class="sr-only">YouTube</span>
-                              </a>
-            </ul>
-          </div>
+  <div class="container">
+    <div class="embed-responsive embed-responsive-16by9">
+      <video controls="true" class="embed-responsive-item">
+        <source src="/video/TheMonkees.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+  <h1 id="band" class="text-uppercase text-center">Band Members</h1>
+  <p class="paragraph">Introducing the band members...</p>
+
+  <div class="container">
+    <section class="band-details">
+      <div class="row">
+        <img src="./images/md.jpg" class="rounded-circle mr-3" height=100 width=100 alt="...">
+        <div class="col-12 col-md-4"><strong>Micky Dolenz</strong>
+          <span>is an American actor, musician, television director, radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</span>
         </div>
-      </footer>
+        <img src="./images/mn.jpg" class="rounded-circle mr-3" height=100 width=100 alt="...">
+        <div class="col-12 col-md-4"><strong>Michael Nesmith</strong>
+          <span>is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series The Monkees.</span>
+        </div>
+      </div>
+    </section>
+  </div>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="row">
+      <img src="./images/pt.jpg" class="rounded-circle mr-3" height=100 width=100 alt="...">
+      <div class="col-12 col-md-4"><strong>Peter Tork</strong>
+        <span>is an American musician, composer and actor, best known as the keyboardist and bass guitarist of the Monkees.</span>
+      </div>
+      <img src="./images/dj.jpg" class="rounded-circle mr-3" height=100 width=100 alt="...">
+      <div class="col-12 col-md-4"><strong>Davy Jones</strong>
+        <span>was an English singer-songwriter, musician, actor and businessman, best known as a member of the band the Monkees, and for starring in the TV series of the same name. </span>
+      </div>
+    </div>
+  </div>
+  
+  <h1 id="testimonials" class="text-uppercase text-center">Testimonials</h1>
+  <p class="paragraph">Here's what others have said...</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6"><strong>John Doe</strong>
+        <span><i>I booked The Monkees for my wedding, I recieved professionalism from the first point of contact. They showed up on the day
+        dressed in full suits and put on a show both myself and my wife plus all of our guest will never forget. Thanks again, Micky, Michael,
+        Peter and Davy.</i></span>
+      </div>
+      
+      <div class="col-12 col-md-6"><strong>Jane Doe</strong>
+        <span><i>My business booked The Monkees for a Christmas Gala Event and they were exceptional, I am booking them again this year!!</i></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-12 page-header">
+        <h2 id="enquire" class="text-uppercase">Enquire:</h2>
+        <form>
+            <div class="form-group">
+                <label for="enquire-textarea">Enquire message</label>
+                <textarea class="form-control" id="enquire-textarea" rows="3" placeholder="Please give us a brief description of what you require" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="allow-contact-us" required>
+                <label class="form-check-label" for="allow-contact-us">Allow us to contact you</label>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Select this more for information
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Or Select this BOOK!
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option value="">Open this select menu</option>
+                    <option value="1">Weddings</option>
+                    <option value="2">Corporate Events</option>
+                    <option value="3">Christmas Parties</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
+  <!--<div class="container-wrapper container-wrapper">-->
+  <!--  <div class="container service-container content-container">-->
+  <footer class="container-fluid">
+    <div id="footer-details" class="row text-center">
+      <div class="col-12">
+        <h5 class="uppercase general-sub">Social</h5>
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/TheMonkees/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/themonkees">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.youtube.com/user/themonkees">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span>
+            </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
-</html>-->
+</html>
