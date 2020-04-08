@@ -6,11 +6,16 @@ body {
 
 /*--------------------------------------------Navbar*/
 
+.navbar {
+    opacity: 0.8;
+}
+
 /*--------------------------------------------Heading Paragraph*/
 
 .heading {
     text-transform: uppercase;
     text-align: center;
+    font-family: Roboto;
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -25,14 +30,15 @@ body {
 
 /*.featurette-divider {
     text-align: center;
-}
+}*/
 
-.row-featurette {
+/*.row-featurette {
     text-align: center;
 }*/
 
 .audio-clips {
-    text-align: right;
+    text-align-last: right;
+    offset-position: 50px;
 }
 
 .audio-clips-paragraph {
@@ -44,46 +50,89 @@ body {
     margin-bottom: 20px;
 }*/
 
+/*--------------------------------------------Services*/
+
+.service-heading {
+    text-align: center;
+}
+
+/*.service {
+    text-align: center;
+    margin-bottom: 60px;
+}*/
+
+.service i {
+    margin-top: 20px;
+    margin-bottom: 60px!important;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/*.text-uppercase {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}*/
+
+/*.img-icon {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;   
+}*/
+
+/*.card {
+    width: 340px;
+    height: 440px;
+}*/
+
 /*--------------------------------------------Video*/
 
+.video-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
 
+.video-paragraph {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 
 /*--------------------------------------------Band*/
+
+.band-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.band-paragraph {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
 /*.band-details {
     margin-top: 25px;
     margin-bottom: 25px;
 }*/
 
-/*--------------------------------------------Services*/
+/*--------------------------------------------Testimonials*/
 
-.service {
+.testimonials-heading {
     text-align: center;
-    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-.service i {
-    margin-bottom: 60px!important;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.text-uppercase {
+.testimonials-paragraph {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px; 
 }
-
-.img-icon {
-    width: 300px;
-    height: 300px;
-    margin: 20px auto;   
-}
-
-/*.card {
-    width: 340px;
-    height: 440px;
-}*/
 
 /*--------------------------------------------Social*/
 
