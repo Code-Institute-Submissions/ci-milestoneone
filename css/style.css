@@ -134,8 +134,18 @@ body {
     margin-bottom: 40px; 
 }
 
-/*--------------------------------------------Social*/
+/*--------------------------------------------Enquire*/
 
+.enquire-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    margin-bottom: 50px;
+}
 
 /*--------------------------------------------Footer*/
 
