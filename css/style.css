@@ -28,22 +28,16 @@ body {
 
 /*--------------------------------------------Audio*/
 
-/*.featurette-divider {
-    text-align: center;
-}*/
 
-/*.row-featurette {
+.audio-heading {
     text-align: center;
-}*/
-
-.audio-clips {
-    text-align-last: right;
-    offset-position: 50px;
+    margin-bottom: 20px;
 }
 
-.audio-clips-paragraph {
-    text-align: right;
-}*/
+.audio-paragraph {
+    text-align: center;
+    text-transform: capitalize;
+}
 
 /*.col-sm {
     margin-top: 20px;
@@ -56,10 +50,10 @@ body {
     text-align: center;
 }
 
-/*.service {
+.service {
     text-align: center;
     margin-bottom: 60px;
-}*/
+}
 
 .service i {
     margin-top: 20px;
@@ -139,15 +133,20 @@ body {
 .enquire-heading {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .btn-primary {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /*--------------------------------------------Footer*/
+
+.social-heading {
+    
+    margin-bottom: 15px;
+}
 
 .social {
     color: #212529;
@@ -184,7 +183,3 @@ body {
 .list-inline social-links {
     text-align: center;
 }
-
-/*--------------------------------------------Form*/
-
-
