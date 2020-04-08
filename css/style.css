@@ -28,7 +28,6 @@ body {
 
 /*--------------------------------------------Audio*/
 
-
 .audio-heading {
     text-align: center;
     margin-bottom: 20px;
@@ -37,6 +36,12 @@ body {
 .audio-paragraph {
     text-align: center;
     text-transform: capitalize;
+}
+
+.img-icon {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;   
 }
 
 /*.col-sm {
