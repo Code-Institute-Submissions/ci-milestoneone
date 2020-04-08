@@ -8,14 +8,14 @@ body {
 
 /*--------------------------------------------Heading Paragraph*/
 
-.lowercase {
+.heading {
     text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-.paragraph {
+.heading-paragraph {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -23,10 +23,26 @@ body {
 
 /*--------------------------------------------Audio*/
 
-.col-sm {
+/*.featurette-divider {
+    text-align: center;
+}
+
+.row-featurette {
+    text-align: center;
+}*/
+
+.audio-clips {
+    text-align: right;
+}
+
+.audio-clips-paragraph {
+    text-align: right;
+}*/
+
+/*.col-sm {
     margin-top: 20px;
     margin-bottom: 20px;
-}
+}*/
 
 /*--------------------------------------------Video*/
 
@@ -34,10 +50,10 @@ body {
 
 /*--------------------------------------------Band*/
 
-.band-details {
+/*.band-details {
     margin-top: 25px;
     margin-bottom: 25px;
-}
+}*/
 
 /*--------------------------------------------Services*/
 
@@ -64,23 +80,20 @@ body {
     margin: 20px auto;   
 }
 
-.card {
+/*.card {
     width: 340px;
     height: 440px;
-}
+}*/
 
 /*--------------------------------------------Social*/
 
-.social {
-    margin-bottom: 20px;
-}
 
 /*--------------------------------------------Footer*/
 
 .social {
     color: #212529;
     padding: 10px;
-    margin: 20px;
+    margin-top: 20px;
     min-height: 120px;
     text-align: center;
 }
@@ -115,7 +128,4 @@ body {
 
 /*--------------------------------------------Form*/
 
-.form-group {
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
+
