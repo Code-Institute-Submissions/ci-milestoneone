@@ -47,6 +47,7 @@ body {
 .card {
     width: 340px;
     height: 440px;
+    margin-bottom: 50px;
 }
 
 /*--------------------------------------------Services*/
