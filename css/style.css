@@ -49,11 +49,6 @@ body {
     height: 440px;
 }
 
-/*.card-body {
-    width: 340px;
-    height: 440px;
-}*/
-
 /*--------------------------------------------Services*/
 
 .service-heading {
@@ -101,10 +96,15 @@ body {
     margin-bottom: 40px;
 }
 
-/*.band-details {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}*/
+.band-details-one {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.band-details-two {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
 
 /*--------------------------------------------Testimonials*/
 
