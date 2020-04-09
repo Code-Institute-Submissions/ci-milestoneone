@@ -100,8 +100,25 @@ I deployed my website via GitHub pages and is currently published at [https://ma
 
 **Content**
 
+For my NavBar I based it on the NavBar seen in the Code Institute module and project work on the Whiskey Landing
+Page. I did however take this portion of code from Bootstrap and styled it to suit my page but the basis was from
+the coursework.
+
+The Carousel was taken from the Bootstrap website and I used the media content images from Code Institute and used 
+them within the carousel.
+
+The Audio-Clips section again was taken from Bootstrap and also used the images supplied by Code Institute.
+
 All text used for development of this website was extracted from the Wikipedia article 
 [The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
+
+For my Services section I used a portion of code from the Code Institute module and project work on the Whiskey
+Landing Page. I modified this slightly to suit my page and changed the icons. 
+
+The Video was also supplied by Code Institute and I used that within my website.
+
+Band details was extracted from The Monkees Wikipedia. The images again were supplied by Code Institute and used 
+a grid with rows from Bootstrap.
 
 **Media Content**
 
