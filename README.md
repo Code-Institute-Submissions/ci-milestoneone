@@ -40,7 +40,7 @@ that the best solution was to create a single page website and include all these
 
 ## Features
 
-[Home Page](https://8000-e5def020-c090-4fef-910e-3351d9942679.ws-eu01.gitpod.io/#home)
+[Home Page][https://mattjboland.github.io/ci-milestoneone/]
 
 * NavBar - I used this feature for ease of navigating the website and to the different pages 
 * Carousel - I used this to display some images on each page of the website to keep the users attention
@@ -107,18 +107,33 @@ the coursework.
 The Carousel was taken from the Bootstrap website and I used the media content images from Code Institute and used 
 them within the carousel.
 
-The Audio-Clips section again was taken from Bootstrap and also used the images supplied by Code Institute.
+The Audio-Clips section again was taken from Bootstrap with the columns and rows used. I used the images supplied by 
+Code Institute and organised them using card components also from Bootstrap. With the help and guidance from my Mentor
+Guido I was get this part of the site working correctly and rendering down to smaller screens effectively.
 
 All text used for development of this website was extracted from the Wikipedia article 
 [The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
 
 For my Services section I used a portion of code from the Code Institute module and project work on the Whiskey
-Landing Page. I modified this slightly to suit my page and changed the icons. 
+Landing Page. I modified this slightly to suit my page and changed the Font Awesome icons and used columns and rows
+from Bootstrap.
 
-The Video was also supplied by Code Institute and I used that within my website.
+The Video was also supplied by Code Institute and I used that within my website. I used Bootstrap to embed the video into
+my website. 
 
-Band details was extracted from The Monkees Wikipedia. The images again were supplied by Code Institute and used 
-a grid with rows from Bootstrap.
+Band details was extracted from The Monkees Wikipedia.  I used a portion of code from the Code Institute module and 
+project work on the Whiskey Landing Page. The images again were supplied by Code Institute and used a grid with columns 
+and rows from Bootstrap.
+
+For my Testimonials section again I used a small portion of code from the Code Institute module and project work on the 
+Whiskey Landing Page. I modified it to suit my website.
+
+The Enquiry Form I used for this website was taken from Bootstrap. I tried several different ones but with the help of my 
+Mentor Guido, we decided that this option was the best one to suit the needs of this website.
+
+Finally my Social section I used for my project was a part of the Code Institute module and project work on the Resume 
+Project. This really helped my site become interactive and supplied the links where users could explore and research more
+about the band. Again columns and Font Awesome were used.
 
 **Media Content**
 
@@ -126,12 +141,14 @@ All media content was supplied by [Code Institute](https://github.com/Code-Insti
 
 ## Acknowledgements
 
-* [Code Institute](https://codeinstitute.net/)
+* [Code Institute](https://codeinstitute.net/) I used parts of code from the modules, coursework and projects. All
+    the media, pictures, audio clips and video were supplied by Code Institute
 * [Bootstrap](https://getbootstrap.com/) I used Bootstraps Navbar, Carousel and Form examples in my website
 * [W3schools](https://www.w3schools.com/) I used this website when I encountered some problems with my code
 * [Slack](https://slack.com/intl/en-ie/) I also used this website for help on code and errors
 * [StackOverflow](https://stackoverflow.com/) This website was used as a reference for help and tips
 * Guido Cecilio, Guido is my mentor and his help and patience on this project was incredible. I learned so much from 
-our meetings
+our meetings and without his knowledge and information it would have been an impossible task. I am so grateful for his 
+help.
 
 
