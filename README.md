@@ -107,6 +107,8 @@ the coursework.
 The Carousel was taken from the Bootstrap website and I used the media content images from Code Institute and used 
 them within the carousel.
 
+Home section
+
 The Audio-Clips section again was taken from Bootstrap with the columns and rows used. I used the images supplied by 
 Code Institute and organised them using card components also from Bootstrap. With the help and guidance from my Mentor
 Guido I was get this part of the site working correctly and rendering down to smaller screens effectively.
