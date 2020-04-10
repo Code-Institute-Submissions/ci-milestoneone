@@ -92,6 +92,8 @@ online and searching for a solution and ended up with a solution from [StackOver
 
 I have checked the code on [https://validator.w3.org/nu/#textarea] and no major errors were reported.
 
+There are a couple of minor errors, but nothing that majorly affects the sites functionality. 
+
 ## Deployment
 
 I deployed my website via GitHub pages and is currently published at [https://mattjboland.github.io/ci-milestoneone/]
@@ -107,7 +109,8 @@ the coursework.
 The Carousel was taken from the Bootstrap website and I used the media content images from Code Institute and used 
 them within the carousel.
 
-Home section
+Home section was taken from Bootstrap with columns and rows used. Guido gave me tips to tidy this section and make it
+more visually appealing the to user.
 
 The Audio-Clips section again was taken from Bootstrap with the columns and rows used. I used the images supplied by 
 Code Institute and organised them using card components also from Bootstrap. With the help and guidance from my Mentor
