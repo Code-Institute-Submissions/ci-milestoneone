@@ -1,6 +1,6 @@
 # The Monkees
 
-![alt text](https://github.com/mattjboland/ci-milestoneone/blob/master/images/monkees12.jpg)
+* [alt text](https://github.com/mattjboland/ci-milestoneone/blob/master/images/monkees12.jpg)
 
 This website is going to be used as advertisment and promotion of a band call The Monkees. It gives the user a basic
 history of the band and provide audio clips and a video clip for them to enjoy. It informs the user of the services 
@@ -40,7 +40,7 @@ that the best solution was to create a single page website and include all these
 
 ## Features
 
-[Home Page](https://ci-milestoneone-mattjboland.c9users.io/index.html)
+[Home Page](https://8000-e5def020-c090-4fef-910e-3351d9942679.ws-eu01.gitpod.io/#home)
 
 * NavBar - I used this feature for ease of navigating the website and to the different pages 
 * Carousel - I used this to display some images on each page of the website to keep the users attention
