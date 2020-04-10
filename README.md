@@ -1,6 +1,6 @@
 # The Monkees
 
-* [alt text](https://github.com/mattjboland/ci-milestoneone/blob/master/images/monkees12.jpg)
+![alt text](https://github.com/mattjboland/ci-milestoneone/blob/master/images/monkees12.jpg)
 
 This website is going to be used as advertisment and promotion of a band call The Monkees. It gives the user a basic
 history of the band and provide audio clips and a video clip for them to enjoy. It informs the user of the services 
